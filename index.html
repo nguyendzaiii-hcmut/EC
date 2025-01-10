@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Web.loader.js";
+      var loaderUrl = buildUrl + "/EC.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Web.data",
-        frameworkUrl: buildUrl + "/Web.framework.js",
-        codeUrl: buildUrl + "/Web.wasm",
+        dataUrl: buildUrl + "/EC.data",
+        frameworkUrl: buildUrl + "/EC.framework.js",
+        codeUrl: buildUrl + "/EC.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DudajiCompany",
         productName: "Eternal Clash",
@@ -102,7 +102,7 @@
         canvas.style.height = "1080px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Web.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/EC.jpg') center / cover";
       document.querySelector("#unity-loading-bar").style.display = "block";
 
       var script = document.createElement("script");
